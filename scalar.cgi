@@ -6,7 +6,7 @@ use CGI:Carp qw(warningsToBrowser fatalsToBrowser);
 use strict;
 #use strict is a standard Perl module that requires you to declare all variables.
 
-my $email = "yoda@starwars.com";
+my $email = "yoda\@starwars.com";
 my $url = "starwars.com";
 
 print header;
