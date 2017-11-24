@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Reading from forms</title>
+  </head>
+  <body>
+    <h1>Student Survey</h1>
+
+    <form action="/cgi-bin/aboutpost.cgi" method="POST">
+      <p>Full Name: <input type="text" name="person" id="person"  /></p>
+      <p>Favourite Sport: <input type="text" name="sport" id="sport"/></p>
+      <p>Favourite Seneca Course: <input type="text" name="course"  id="course" /></p>
+      <p>Current GPA: <input type="text" name="gpa" id="gpa" /></p>
+      <input type="submit" value="Send" name="Send"/><input type="reset">
+    </form>
+  </body>
+</html>
